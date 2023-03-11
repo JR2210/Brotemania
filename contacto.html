@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Jorge Rayo La Calle">
+    <meta name="descripcion" content="Página web enfocada a la botánica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosresponsive.css">
+    <link rel="shortcut icon" href="img/Brotemanía.png">
+    <title>
+        Brotemanía - Jorge Rayo La Calle
+    </title>
+</head>
+
+<body>
+    <header>
+        <div class="image-container">
+            <a href="index.html"><img class="image-container" src="img/Brotemanía.png" alt="IconoWeb" width="25%"></a>
+        </div>
+        <div class="text-container">
+            <h1>BROTEMANIA</h1>
+        </div>
+    </header>
+    <nav class="lista-horizontal">
+        <ul class="lista-horizontal">
+            <li><a href="index.html" class="boton">INICIO</a></li>
+            <li><a href="video.html" class="boton">VIDEO</a></li>
+            <li><a href="imagenes.html" class="boton">IMAGENES</a></li>
+            <li><a href="contacto.html" class="boton">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="contact-section">
+            <div class="inner-width">
+                <h1>Formulario contacto</h1>
+                <form action="formulario.php" method="get">    
+                    <input type="text" class="name" placeholder="Nombre">
+                    <input type="email" class="email" placeholder="Email">
+                    <select style="background-color: #585e58;" name="motivo" placeholder="Motivo contacto" class="message">
+                        <option value="Error">Aviso de error</option>
+                        <option value="Sugerencia">Sugerencia</option>
+                        <option value="Pregunta">Pregunta</option>
+                    </select>
+                    <textarea rows="1" placeholder="Mensaje" class="message"></textarea>
+                    <input type="checkbox" class="checkbox">
+                    <label class="checkbox">Acepto el tratamiento de datos personales</label>
+                    <button><a href="index.html" style="color:white;text-decoration: none;">Enviar mensaje</a></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer style="color:white;margin-top: 3%;">
+        <hr>
+        <p>Jorge Rayo La Calle &copy;</p>
+    </footer>
+</body>
+
+</html>
+
